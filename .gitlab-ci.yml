@@ -1,0 +1,8 @@
+default:
+  image: openjdk:11
+  before_script:
+    - git config --global user.name "gitlab"
+    - git config --global user.email noreply@proxora.com
+
+maven-build:
+  script: ./mvnw clean package
