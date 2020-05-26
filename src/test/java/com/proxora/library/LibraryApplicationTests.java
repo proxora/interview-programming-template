@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.Assert.assertTrue;
 
 @SpringBootTest
-public class DemoApplicationTests {
+public class LibraryApplicationTests {
 
     @Test
     void contextLoads() {
