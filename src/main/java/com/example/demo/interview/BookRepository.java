@@ -15,7 +15,8 @@ class BookRepository {
                 new Book("4", "Harry Potter - The Chamber of Secrets", "J. K. Rowling", LocalDate.of(1998, 7, 2), 431),
                 new Book("5", "Harry Potter - The Goblet of Fire", "J. K. Rowling", LocalDate.of(2000, 7, 8), 565),
                 new Book("6", "The Lord of the Rings - The Fellowship of the Ring", "J. R. R. Tolkien", LocalDate.of(1954, 7, 29), 543),
-                new Book("7", "The Lord of the Rings - The Two Towers", "J. R. R. Tolkien", LocalDate.of(1954, 11, 11), 511));
+                new Book("7", "The Lord of the Rings - The Two Towers", "J. R. R. Tolkien", LocalDate.of(1954, 11, 11), 511)
+        );
     }
 
 }
