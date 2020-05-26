@@ -5,4 +5,4 @@ default:
     - git config --global user.email noreply@proxora.com
 
 maven-build:
-  script: ./mvnw clean package
+  script: ./mvnw -e -B -V clean package
