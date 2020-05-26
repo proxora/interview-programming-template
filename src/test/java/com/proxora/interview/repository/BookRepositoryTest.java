@@ -1,4 +1,4 @@
-package com.example.demo.interview;
+package com.proxora.interview.repository;
 
 import org.junit.jupiter.api.Test;
 

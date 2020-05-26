@@ -1,4 +1,4 @@
-package com.example.demo.interview;
+package com.proxora.interview.repository;
 
 import java.time.LocalDate;
 import java.util.Arrays;
