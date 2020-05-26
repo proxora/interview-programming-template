@@ -1,4 +1,4 @@
-package com.proxora.interview.repository;
+package com.proxora.library.repository;
 
 import org.junit.jupiter.api.Test;
 
