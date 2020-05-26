@@ -7,12 +7,14 @@ class Book {
     String id;
     String title;
     String author;
-    LocalDate releaseDate;
+    LocalDate publicationDate;
+    int numberOfPages;
 
-    Book(String id, String title, String author, LocalDate releaseDate) {
+    Book(String id, String title, String author, LocalDate publicationDate, int numberOfPages) {
         this.id = id;
         this.title = title;
         this.author = author;
-        this.releaseDate = releaseDate;
+        this.publicationDate = publicationDate;
+        this.numberOfPages = numberOfPages;
     }
 }
