@@ -3,15 +3,15 @@ package com.proxora.library;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.Assert.assertTrue;
+import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-public class LibraryApplicationTest {
+class LibraryApplicationTest {
 
     @Test
     void contextLoads() {
         // nothing to assert, just verifying that spring context loads
-        assertTrue(true);
+        assertThat(true).isTrue();
     }
 
 }
