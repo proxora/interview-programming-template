@@ -2,7 +2,7 @@ package com.proxora.library.repository;
 
 import org.junit.jupiter.api.Test;
 
-public class BookRepositoryTest {
+class BookRepositoryTest {
 
     BookRepository bookRepository = new BookRepository();
 
