@@ -7,7 +7,7 @@ und diese im `BookRepositoryTest` zu testen.
 
 ## Requirements
 
-JDK 17 ist erforderlich (JAVA_HOME Umgebungsvariable ist gesetzt und java binaries sind im PATH)
+JDK 11 ist erforderlich (JAVA_HOME Umgebungsvariable ist gesetzt und java binaries sind im PATH)
 
 zu verifizieren via:
 ```bash
