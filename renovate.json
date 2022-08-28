@@ -1,0 +1,49 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":disableRateLimiting"
+  ],
+  "enabledManagers": [
+    "gitlabci",
+    "maven"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "commitMessageSuffix": "({{#if displayFrom}}{{{displayFrom}}} {{else}}{{#if currentValue}}{{{currentValue}}} {{/if}}{{/if}}to {{#if displayTo}}{{{displayTo}}}{{else}}{{{newValue}}}{{/if}})",
+  "gitLabAutomerge": true,
+  "packageRules": [
+    {
+      "description": "Automerge updates",
+      "matchPackageNames": [
+        "org.projectlombok:lombok"
+      ],
+      "matchPackagePatterns": [
+        "^org.springframework.boot"
+      ],
+      "automerge": true,
+      "addLabels": [
+        "automerge"
+      ]
+    },
+    {
+      "description": "Add gitlab MergeRequest label 'maven'",
+      "matchManagers": [
+        "maven"
+      ],
+      "addLabels": [
+        "maven"
+      ]
+    },
+    {
+      "description": "Add gitlab MergeRequest label 'gitlabci'",
+      "matchManagers": [
+        "gitlabci"
+      ],
+      "addLabels": [
+        "gitlabci"
+      ]
+    }
+  ]
+}
