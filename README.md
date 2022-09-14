@@ -1,9 +1,5 @@
 # Programmierbeispiel für Vorstellungsgespräche
 
-Aufgabe ist es im `BookRepository` verschiedene (such) Funktionen zu implementieren 
-und diese im `BookRepositoryTest` zu testen.
-
-1. Implementiere eine Methode, die alle Bücher findet, die nach einem bestimmten Datum veröffentlicht worden sind.
 
 ## Requirements
 
