@@ -3,7 +3,7 @@
 
 ## Requirements
 
-JDK 11 ist mindestends erforderlich (JAVA_HOME Umgebungsvariable ist gesetzt und java binaries sind im PATH)
+JDK 17 ist mindestends erforderlich (JAVA_HOME Umgebungsvariable ist gesetzt und java binaries sind im PATH)
 
 zu verifizieren via:
 ```bash
